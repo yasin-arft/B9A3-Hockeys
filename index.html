@@ -49,50 +49,98 @@
   <header class="container mx-auto px-5">
     <!-- banner section -->
     <section class="my-10 md:my-14 lg:my-24">
-      <div class="carousel w-full">
+      <div class="carousel w-full rounded-2xl">
         <!-- slider one -->
-        <div id="slide1" class="carousel-item relative w-full">
-          <img src="./images/banner.png" class="w-full rounded-2xl" />
+        <div id="slide1" class="carousel-item block relative w-full">
+          <div class="relative">
+            <img src="./images/banner.png" class="w-full rounded-2xl" />
+            <div
+              class="absolute space-x-3 md:space-x-4 transform -translate-x-1/2 md:translate-x-0 left-1/2 md:left-8 bottom-5 md:bottom-8 ">
+              <a href="#slide3"
+                class="btn btn-circle min-h-0 h-8 lg:h-12 w-8 lg:w-12 bg-secondary-color text-white hover:text-secondary-color border-0 text-base lg:text-2xl">
+                <i class="fa-solid fa-angle-left"></i>
+              </a>
+              <a href="#slide2"
+                class="btn btn-circle min-h-0 h-8 lg:h-12 w-8 lg:w-12 bg-secondary-color text-white hover:text-secondary-color border-0 text-base lg:text-2xl">
+                <i class="fa-solid fa-angle-right"></i>
+              </a>
+            </div>
+          </div>
+          <!-- badge for md and lg device -->
           <div
-            class="absolute space-x-3 lg:space-x-4 transform -translate-x-1/2 lg:translate-x-0 left-1/2 lg:left-8 bottom-5 lg:bottom-8 ">
-            <a href="#slide3"
-              class="btn btn-circle min-h-0 h-8 lg:h-12 w-8 lg:w-12 bg-secondary-color text-white hover:text-secondary-color border-0 text-base lg:text-2xl">
-              <i class="fa-solid fa-angle-left"></i>
-            </a>
-            <a href="#slide2"
-              class="btn btn-circle min-h-0 h-8 lg:h-12 w-8 lg:w-12 bg-secondary-color text-white hover:text-secondary-color border-0 text-base lg:text-2xl">
-              <i class="fa-solid fa-angle-right"></i>
-            </a>
+            class="hidden md:block absolute md:right-8 md:bottom-8 bg-secondary-color text-white p-4 md:p-6 lg:p-8 rounded-2xl space-y-2 lg:space-y-4">
+            <h2 class="text-lg lg:text-2xl font-extrabold">Meet all the heroes from the field</h2>
+            <p class="text-sm lg:text-base font-medium w-full max-w-[500px]">Dit amet consectetur. Condimentum dignissim
+              adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+          </div>
+          <!-- badge for mobile device -->
+          <div
+            class="md:hidden bg-secondary-color text-white mt-4 p-4 md:p-6 lg:p-8 rounded-2xl space-y-2 lg:space-y-4">
+            <h2 class="text-lg lg:text-2xl font-extrabold">Meet all the heroes from the field</h2>
+            <p class="text-sm lg:text-base font-medium w-full max-w-[500px]">Dit amet consectetur. Condimentum dignissim
+              adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
           </div>
         </div>
         <!-- slider two -->
-        <div id="slide2" class="carousel-item relative w-full">
-          <img src="./images/banner.png" class="w-full rounded-2xl" />
+        <div id="slide2" class="carousel-item block relative w-full">
+          <div class="relative">
+            <img src="./images/banner.png" class="w-full rounded-2xl" />
+            <div
+              class="absolute space-x-3 md:space-x-4 transform -translate-x-1/2 md:translate-x-0 left-1/2 md:left-8 bottom-5 md:bottom-8 ">
+              <a href="#slide1"
+                class="btn btn-circle min-h-0 h-8 lg:h-12 w-8 lg:w-12 bg-secondary-color text-white hover:text-secondary-color border-0 text-base lg:text-2xl">
+                <i class="fa-solid fa-angle-left"></i>
+              </a>
+              <a href="#slide3"
+                class="btn btn-circle min-h-0 h-8 lg:h-12 w-8 lg:w-12 bg-secondary-color text-white hover:text-secondary-color border-0 text-base lg:text-2xl">
+                <i class="fa-solid fa-angle-right"></i>
+              </a>
+            </div>
+          </div>
+          <!-- badge for md and lg device -->
           <div
-            class="absolute space-x-3 lg:space-x-4 transform -translate-x-1/2 lg:translate-x-0 left-1/2 lg:left-8 bottom-5 lg:bottom-8 ">
-            <a href="#slide1"
-              class="btn btn-circle min-h-0 h-8 lg:h-12 w-8 lg:w-12 bg-secondary-color text-white hover:text-secondary-color border-0 text-base lg:text-2xl">
-              <i class="fa-solid fa-angle-left"></i>
-            </a>
-            <a href="#slide3"
-              class="btn btn-circle min-h-0 h-8 lg:h-12 w-8 lg:w-12 bg-secondary-color text-white hover:text-secondary-color border-0 text-base lg:text-2xl">
-              <i class="fa-solid fa-angle-right"></i>
-            </a>
+            class="hidden md:block absolute md:right-8 md:bottom-8 bg-secondary-color text-white p-4 md:p-6 lg:p-8 rounded-2xl space-y-2 lg:space-y-4">
+            <h2 class="text-lg lg:text-2xl font-extrabold">Meet all the heroes from the field</h2>
+            <p class="text-sm lg:text-base font-medium w-full max-w-[500px]">Dit amet consectetur. Condimentum dignissim
+              adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+          </div>
+          <!-- badge for mobile device -->
+          <div
+            class="md:hidden bg-secondary-color text-white mt-4 p-4 md:p-6 lg:p-8 rounded-2xl space-y-2 lg:space-y-4">
+            <h2 class="text-lg lg:text-2xl font-extrabold">Meet all the heroes from the field</h2>
+            <p class="text-sm lg:text-base font-medium w-full max-w-[500px]">Dit amet consectetur. Condimentum dignissim
+              adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
           </div>
         </div>
         <!-- slider three -->
-        <div id="slide3" class="carousel-item relative w-full">
-          <img src="./images/banner.png" class="w-full rounded-2xl" />
+        <div id="slide3" class="carousel-item block relative w-full">
+          <div class="relative">
+            <img src="./images/banner.png" class="w-full rounded-2xl" />
+            <div
+              class="absolute space-x-3 md:space-x-4 transform -translate-x-1/2 md:translate-x-0 left-1/2 md:left-8 bottom-5 md:bottom-8 ">
+              <a href="#slide2"
+                class="btn btn-circle min-h-0 h-8 lg:h-12 w-8 lg:w-12 bg-secondary-color text-white hover:text-secondary-color border-0 text-base lg:text-2xl">
+                <i class="fa-solid fa-angle-left"></i>
+              </a>
+              <a href="#slide1"
+                class="btn btn-circle min-h-0 h-8 lg:h-12 w-8 lg:w-12 bg-secondary-color text-white hover:text-secondary-color border-0 text-base lg:text-2xl">
+                <i class="fa-solid fa-angle-right"></i>
+              </a>
+            </div>
+          </div>
+          <!-- badge for md and lg device -->
           <div
-            class="absolute space-x-3 lg:space-x-4 transform -translate-x-1/2 lg:translate-x-0 left-1/2 lg:left-8 bottom-5 lg:bottom-8 ">
-            <a href="#slide2"
-              class="btn btn-circle min-h-0 h-8 lg:h-12 w-8 lg:w-12 bg-secondary-color text-white hover:text-secondary-color border-0 text-base lg:text-2xl">
-              <i class="fa-solid fa-angle-left"></i>
-            </a>
-            <a href="#slide1"
-              class="btn btn-circle min-h-0 h-8 lg:h-12 w-8 lg:w-12 bg-secondary-color text-white hover:text-secondary-color border-0 text-base lg:text-2xl">
-              <i class="fa-solid fa-angle-right"></i>
-            </a>
+            class="hidden md:block absolute md:right-8 md:bottom-8 bg-secondary-color text-white p-4 md:p-6 lg:p-8 rounded-2xl space-y-2 lg:space-y-4">
+            <h2 class="text-lg lg:text-2xl font-extrabold">Meet all the heroes from the field</h2>
+            <p class="text-sm lg:text-base font-medium w-full max-w-[500px]">Dit amet consectetur. Condimentum dignissim
+              adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+          </div>
+          <!-- badge for mobile device -->
+          <div
+            class="md:hidden bg-secondary-color text-white mt-4 p-4 md:p-6 lg:p-8 rounded-2xl space-y-2 lg:space-y-4">
+            <h2 class="text-lg lg:text-2xl font-extrabold">Meet all the heroes from the field</h2>
+            <p class="text-sm lg:text-base font-medium w-full max-w-[500px]">Dit amet consectetur. Condimentum dignissim
+              adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
           </div>
         </div>
       </div>
@@ -651,7 +699,8 @@
           <span class="opacity-60">(+62) 123-321-543</span>
         </div>
       </div>
-      <div class="col-span-2 grid grid-cols-2 md:grid-cols-3 gap-10 md:gap-y-0 lg:gap-x-36 justify-center text-center md:text-left">
+      <div
+        class="col-span-2 grid grid-cols-2 md:grid-cols-3 gap-10 md:gap-y-0 lg:gap-x-36 justify-center text-center md:text-left">
         <div>
           <h3 class="text-lg font-bold mb-6">Company</h3>
           <nav>
